@@ -43,6 +43,7 @@
                 <a href="{{ url('/conversor-unidades') }}" class="{{ request()->is('conversor-unidades') ? 'active' : '' }}">Conversor de Unidades</a>
                 <a href="{{ url('/cronometro') }}" class="{{ request()->is('cronometro') ? 'active' : '' }}">Cronômetro</a>
                 <a href="{{ url('/bcrypt-hash') }}" class="{{ request()->is('bcrypt-hash') ? 'active' : '' }}">Gerador Bcrypt</a>
+                <a href="{{ url('/gerador-de-cpf') }}" class="{{ request()->is('gerador-de-cpf') || request()->is('gerador-cpf') ? 'active' : '' }}">Gerador de CPF</a>
 
                 {{-- <a href="{{ url('/meu-ip') }}" class="d-block py-2 text-white {{ request()->is('meu-ip') ? 'fw-bold' : '' }}">
                     Meu IP
